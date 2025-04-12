@@ -41,6 +41,11 @@ const Contact = () => {
       options
     );
     console.log(fetchData);
+    data.Name = "";
+    data.Email = "";
+    data.Subject = "";
+    data.Message = "";
+    setData({ ...data });
   };
   return (
     <>
