@@ -28,7 +28,7 @@ const Home = () => {
     <>
       <div className="bg-black h-[100%] min-h-screen">
         <div className="home w-[100%] mx-auto py-[30px] px-[40px] max-sm:px-[20px]">
-          <div className="top-container flex flex-wrap max-sm:flex-nowrap max-sm:gap-3 justify-evenly items-center ">
+          <div className="top-container flex flex-wrap max-sm:flex-nowrap max-sm:gap-3 justify-evenly items-center p-2">
             <motion.div
               className="left-container py-[20px] px-[20px] relative rounded w-[60%] flex justify-center max-sm:w-auto items-center"
               initial={{ x: "50%", y: "50%" }}
@@ -46,13 +46,13 @@ const Home = () => {
               <Link to="/about">
                 <div className="detail-container hover:text-white duration-500 flex flex-col justify-centermax-sm:mt-0 ">
                   <div>
-                    <p className="text-[#818181] text-2xl max-sm:text-[18px] blink">
+                    <p className="text-[#818181] text-2xl max-sm:text-[20px] blink uppercase">
                       A Web Developer
                     </p>
                     <p className="text-[42px] text-white tracking-wide font-medium hover:text-white max-sm:text-3xl font-Jersey blink animate-glow ">
                       NaveenKumar
                     </p>
-                    <p className="text-[#818181] tracking-[1px] font-semibold max-sm:text-sm text-2xl blink">
+                    <p className="text-[#818181] tracking-[1px] font-semibold max-sm:text-sm text-2xl blink mb-2">
                       A React Frontend Developer
                     </p>
                     <div className="icon">
